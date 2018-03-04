@@ -23,8 +23,13 @@
     var header = document.querySelector('header');
     var section = document.querySelector('section');
 
-    
+    //Store json URL and open XMLHttpRequest
+    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL); 
+    //Uses the two mandatory parameters: 1. HTTP Method, and 2. URL to make request to
 
+    
     </script>
   </body>
 </html>
